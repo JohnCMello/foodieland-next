@@ -1,0 +1,44 @@
+// mobile
+
+// tablet
+
+// desktop
+.navigationMenu {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  min-width: 600px;
+
+  &--mobile {
+    position: fixed;
+    top: 100px;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+
+  &__item {
+    color: var(--black);
+    display: flex;
+    min-width: 100px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  &__link {
+    height: 100%;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+
+    &:hover {
+      background-color: #888;
+      color: white;
+    }
+  }
+
+}
